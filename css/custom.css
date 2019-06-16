@@ -1,0 +1,93 @@
+
+/***** Pagina Indice.html / -> Imagen fondo y Titulo <- *****/
+
+/*** Imagen de fondo, colocacion, configuracion y altura ***/
+
+div.img{
+  background-image: url(../images/corgi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center; 
+
+  height: 100vh;
+}
+
+/*** Titulo, estilo personalizado ***/
+
+div>h1.titleindex {
+  color: #563d7c;
+  text-shadow: -2px 0px 2px rgb(255, 255, 255);
+}
+
+/***** Pagina Listado.html *****/
+
+.animales, .musica {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 10vh;
+}
+
+/*** Fondo Animales ***/
+
+.animales {
+  background-image: url(../images/bird.jpg);
+  background-position-y:-50px;
+}
+
+/*** Fondo Musica ***/
+
+.musica {
+  background-image: url(../images/partitura.jpg);
+  background-position-y:-80px;
+}
+
+/** Fondos Carta instrumentos, configuracion **/
+
+.piano, 
+.amplificacion, 
+.pedaleria, 
+.motivacion { 
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.piano {
+  background-image: url(../images/piano.jpg);
+}
+
+.amplificacion{
+  background-image: url(../images/marshall.jpg);
+}
+
+.pedaleria {
+  background-image: url(../images/pedales.jpg);
+  background-position-y: -30px;
+}
+
+.motivacion{
+  background-image: url(../images/concierto.jpg);
+  background-position-y: -30px;
+}
+
+/* Listado de fotos Animales */
+
+/*A MEDIA QUERIES*/
+  /* Cambiamos la disposicion de Bootstrap 4 (por defecto "block") a flex, y le añadimos un !important. Esto es debido a que la clase aplicada directamente en bootstrap tiene mas importancia por el orden en cascada. Ademas de aplicarse solo en caso de activar el boton.*/
+
+.extension{
+  width: 400px;
+  height: 300px;
+}
+
+/* 
+--------- AUXILIARES ---------
+
+Aqui se pondran las clases Auxiliares, que modifican una cosa o varias, y se reciclan en todas las paginas.
+
+*/
+
+.violet /* Color  de Bootstrap */{
+  color: #9e5eff;
+}
