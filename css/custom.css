@@ -1,5 +1,5 @@
 
-/***** Pagina Indice.html / -> Imagen fondo y Titulo <- *****/
+/***** START Pagina Indice.html / -> Imagen fondo y Titulo <- *****/
 
 /*** Imagen de fondo, colocacion, configuracion y altura ***/
 
@@ -19,7 +19,9 @@ div>h1.titleindex {
   text-shadow: -2px 0px 2px rgb(255, 255, 255);
 }
 
-/***** Pagina Listado.html *****/
+/***** FIN Pagina Index.html *****/
+
+/***** START Pagina Animales y Musica.html *****/
 
 .animales, .musica {
   background-size: cover;
@@ -71,15 +73,35 @@ div>h1.titleindex {
   background-position-y: -30px;
 }
 
+
+/***** FIN Pagina Animales y Musica *****/
+
+/***** START Pagina Juegos y programacion *****/
+
+div.pacman{
+  background-image: url(../images/pacman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -60px;
+}
+
+div.code {
+  background-image: url(../images/code.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Listado de fotos Animales */
 
 /*A MEDIA QUERIES*/
   /* Cambiamos la disposicion de Bootstrap 4 (por defecto "block") a flex, y le añadimos un !important. Esto es debido a que la clase aplicada directamente en bootstrap tiene mas importancia por el orden en cascada. Ademas de aplicarse solo en caso de activar el boton.*/
 
-.extension{
+/* .extension{
   width: 400px;
   height: 300px;
-}
+} */
+
+
 
 /* 
 --------- AUXILIARES ---------
@@ -88,6 +110,23 @@ Aqui se pondran las clases Auxiliares, que modifican una cosa o varias, y se rec
 
 */
 
-.violet /* Color  de Bootstrap */{
+.violet {
   color: #9e5eff;
+}
+
+.htmlcolor{
+  color: #e34f26;
+}
+
+.phpcolor {
+  color: #4f5b93;
+}
+
+.show{
+  display: flex!important;
+}
+
+.rescalado{
+  height: 30vh;
+  object-fit: cover;
 }

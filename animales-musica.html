@@ -33,9 +33,14 @@
             <div class="collapse navbar-collapse" id="navegacion">
                 <a href="index.html" class="nav-item nav-link text-success">Home</a>
                 <a href="animales-musica.html" class="nav-item nav-link text-primary">Animales y Musica</a>
-                <a href="juegos-programacion.html" class="nav-item nav-link text-warning">Juegos y Programacion</a>
+                <a href="juegos-programacion.html" class="nav-item nav-link text-warning">Juegos y Programación</a>
                 <a href="#" class="nav-item nav-link text-danger">Desactivado</a>
-                <input type="text" placeholder="Search">
+                <div class="input-group col-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="search"><i class="fas fa-search"></i></span>
+                  </div>
+                <input type="text" class="form-control" placeholder="Search">
+                </div>
             </div>
         </nav>
 <!-- Fin de la Navegacion -->
@@ -54,19 +59,19 @@
 <!-- Galeria Personalizada Desplegable -->
           <div class="mx-3 dropright">
             <button type="button" class="btn btn-outline-info dropdown-toggle" id="perros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</button>
-            <div class="dropdown-menu despliegue" aria-labelledby="perros">
-              <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item ">
+            <div class="dropdown-menu" aria-labelledby="perros">
+              <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item ">
             <!-- Corgi -->
                   <h3 class="h4 px-2">Corgi Pembroke</h3>
                   <img class="col-12 img-fluid"src="images/welsh-corgi-pembroke.jpg" alt="bebe-corgi-pembroke">
               </div>
             <!-- Golden retriever -->
-              <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item">
+              <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item">
                 <h3 class="h4 px-2">Golden Retriever</h3>
                 <img class="col-12 img-fluid"src="images/golden-retriever-puppy.jpg" alt="bebe-golden-retriever">
               </div>
             <!-- Beagle -->
-              <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item">
+              <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item">
                   <h3 class="h4 px-2">Beagle</h3>
                   <img class="col-12 img-fluid"src="images/beagle-puppy.jpg" alt="bebe-beagle">
               </div>
@@ -82,20 +87,20 @@
           </div>
 <!-- Galeria Personalizada Desplegable -->
           <div class="mx-3 dropright">
-            <button type="button" class="btn btn-outline-success dropdown-toggle" id="gatos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</button>
+            <button type="button" class="btn btn-outline-success dropdown-toggle" id="gatos" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Galeria</button>
               <div class="dropdown-menu" aria-labelledby="gatos">
-                <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item">
             <!-- Siames -->
+                <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item">
                     <h3 class="h4 px-2 my-2">Gato Siamés</h3>
                     <img class="col-12 img-fluid"src="images/siames.jpg" alt="foto-gato-siames">
                 </div>
             <!-- Azul Ruso -->
-                <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item">
+                <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item">
                   <h3 class="h4 px-2 my-2">Gato Azul Ruso</h3>
                   <img class="col-12 img-fluid"src="images/azul-ruso.jpg" alt="foto-gato-azul-ruso">
                 </div>
             <!-- Bosque de noruega -->
-                <div class="extension col-sm-12 col-md-4 col-lg-4 dropdown-item">
+                <div class="extension col-sm-4 col-md-4 col-lg-4 dropdown-item">
                     <h3 class="h4 px-2 my-2">Gato Noruego</h3>
                     <img class="col-12 img-fluid"src="images/norwegian-cat.jpg" alt="foto-gato-bosques-noruegos">
                 </div>
@@ -144,21 +149,21 @@
                 <p>Se consecuente con tu elección, ya que podría condicionarte en tu afición por la musica. Puedes llegar a amar el instrumento a primera vista y odiarlo al tocarlo.</p>
               </div>
             </div>
-            <div class="card my-2 mx-2 col-sm-12 col-md-6 col-lg-3 px-0">
+            <div class="card my-2 mx-2 col-sm-4 col-md-6 col-lg-3 px-0">
               <div class="card-header py-3 amplificacion text-light">Amplificación</div>
               <div class="card-body">
                 <h2 class="h3">Que resuene en toda la habitación!</h2>
                 <p>La elección de la amplificación es importante de cara a como querrás oírte y que te oigan, las marcas de amplificadores tienen sus propias personalidades (calidades aparte) no es lo mismo un amplificador americano que uno británico! El estilo aquí lo es todo!</p>
               </div>
             </div>
-            <div class="card my-2 mx-2 col-sm-12 col-md-6 col-lg-3 px-0">
+            <div class="card my-2 mx-2 col-sm-4 col-md-6 col-lg-3 px-0">
               <div class="card-header py-3 pedaleria text-light">Pedalería</div>
               <div class="card-body">
                 <h2 class="h3">Efectos! Efectos! Efectos!</h2>
                 <p>¿A quien no le mola la distorsión de una guitarra eléctrica? ¿Como podemos llegar a hacer que el riff se oiga hasta la estratosfera, tenga eco y coros? Aquí entran los efectos, y para ello tenemos los pedales! Un montón de marcas con estilos personalizados de todo tipo, desde el Jazz, pasando por el Grunge, Rock, Metal, New Age, y estilos alternativos. Las posibilidades son infinitas!</p>
               </div>
             </div>
-            <div class="card my-2 mx-2 col-sm-12 col-md-6 col-lg-3 px-0">
+            <div class="card my-2 mx-2 col-sm-4 col-md-6 col-lg-3 px-0">
                 <div class="card-header py-3 motivacion text-light">Motivación</div>
                 <div class="card-body">
                   <h2 class="h3">Solo tu pones los limites</h2>
